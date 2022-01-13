@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: cursive;
+}
+
+/*start login  */
+#body-login {
+	background-color: #001935;
+	/* background-image: url(../Image/back_ground_main.jpg); */
+	background-size: cover;
+	margin: auto;
+}
+
+#body-flex-login {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#container-login {
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background-color: white;
+}
+
+#container-login-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 384px;
+	height: 610px;
+	padding: 0 16px;
+	background-image: url(../Image/book.jpg);
+	background-size: contain;
+}
+#block-gray{
+	width: 415px;
+    height: 610px;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.3;
+    background-color: gray;
+    margin-right: 60px;
+    right: 618px;
+}
+
+#container-login-right {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 0 24px;
+	
+}
+
+#header-top-right {
+	font-size: 20px;
+	color: #878787;
+	z-index: 1;
+}
+
+#header-top-left {
+	text-align: center;
+	color: white;
+	z-index: 2;
+}
+
+.header-login {
+	margin-top: 32px;
+}
+
+#text-logo {
+	font-size: 48px;
+	opacity: 1;
+}
+
+#hint-text-logo {
+	font-size: 18px;
+}
+
+.header-bottom-left {
+	margin-bottom: 64px;
+}
+
+.header-bottom-left span {
+	color: white;
+	margin-left: 8px;
+}
+
+.color-icon-oval {
+	width: 10px;
+	height: 10px;
+}
+
+.actived {
+	color: #DA7C79;
+}
+
+#social-icon {
+	align-self: flex-end;
+	margin-bottom: 16px;
+}
+
+#social-icon img {
+	width: 40px;
+	height: 40px;
+}
+
+#container-center-login-right input[type=text] {
+	margin-top: 8px;
+	font-size: 14px;
+}
+
+#container-center-login-right input[type=submit] {
+	margin-top: 24px;
+	color: white;
+	font-size: 14px;
+	
+}
+
+.meterial-text-input {
+	height: 40px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+}
+
+.meterial-button-primary {
+	height: 40px;
+	border: 0;
+	background-color: #001935;
+	width: 100%;
+	box-shadow: 0px 2px 4px 0px #000 ;
+}
+
+.input-icon-email {
+	background: url(../Image/ic_email.png) no-repeat scroll 16px 1px;
+	background-size: contain; 
+	height : 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 83%;
+	height: 38px;
+	padding-left: 60px;
+}
+
+.input-icon-password {
+	background: url(../Image/ic_lock.png) no-repeat scroll 16px 1px;
+	background-size: contain;
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 83%;
+	padding-left: 60px;
+}
+
+/*end login  */
